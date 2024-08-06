@@ -1,5 +1,3 @@
-// src/components/TaskList/AddTask.js
-
 import React, { useState } from 'react';
 
 const AddTask = ({ addTask }) => {

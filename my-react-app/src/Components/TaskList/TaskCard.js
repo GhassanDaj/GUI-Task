@@ -1,5 +1,3 @@
-// src/components/TaskList/TaskCard.js
-
 import React from 'react';
 
 const TaskCard = ({ task, completeTask, deleteTask }) => {

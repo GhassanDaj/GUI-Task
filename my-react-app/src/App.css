@@ -1,12 +1,25 @@
-/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://blog.appsumo.com/wp-content/uploads/2021/08/AS-blog-best-to-do-list-app-1536x614px-1-1.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  height: 100vh; 
+}
 
 .App {
   text-align: center;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(3, 2, 2, 0.8); 
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+  background-color: transparent; 
   display: flex;
   flex-direction: column;
   align-items: center;

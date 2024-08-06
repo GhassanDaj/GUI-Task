@@ -1,5 +1,3 @@
-// src/components/TaskList/TaskList.js
-
 import React, { useState } from 'react';
 import styles from './TaskList.module.css';
 import AddTask from './AddTask';
